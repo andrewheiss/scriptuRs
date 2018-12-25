@@ -1,4 +1,4 @@
-# scriptuRs
+# scriptuRs <img src="tools/logo.png" align="right"/>
 
 ## An R Package for the Complete LDS Scriptures
 
