@@ -1,0 +1,18 @@
+Package: scriptuRs
+Type: Package
+Title: Complete text of the LDS Scriptures
+Version: 0.1.0
+Authors@R: person("Andrew", "Heiss", email = "andrew@andrewheiss.com", role = c("aut", "cre"))
+Description: Full text, in data frames containing one row per verse, of the 
+    Standard Works of The Church of Jesus Christ of Latter-day Saints (LDS). 
+    These are the Old Testament, (KJV), the New Testament (KJV), the Book of 
+    Mormon, the Doctrine and Covenants, and the Pearl of Great Price.
+URL: https://github.com/andrewheiss/scriptuRs
+BugReports: https://github.com/andrewheiss/scriptuRs/issues
+Depends: R (>= 3.0.0)
+Suggests: dplyr,
+    testthat
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
