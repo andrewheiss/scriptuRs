@@ -10,7 +10,7 @@ This package provides access to the full text of the Standard Works for The Chur
 - `doctrine_and_covenants`: The Doctrine and Covenants
 - `pearl_of_great_price`: The Pearl of Great Price
 
-There is also a function `lds_scriptures()` that returns a tidy data frame of all 5 volumes of scripture.
+There is also a function `lds_scriptures()` that returns a tidy data frame of all 5 volumes of scripture, as well as a `kjv_bible()` function that returns a tidy data frame of just the Old and New Testaments.
 
 Unlike other packages like [**janeaustenr**](https://github.com/juliasilge/janeaustenr), this package does not provide ordered factors for book or volume names. It is up to the user to put books and/or volumes in the needed order when analyzing or plotting the data.
 
@@ -38,7 +38,7 @@ scriptures <- lds_scriptures()
 
 scriptures %>% 
   group_by(volume_title, book_title) %>%
-  summarise(total_verses = n())
+  summarize(total_verses = n())
 #> # A tibble: 87 x 3
 #> # Groups:   volume_title [?]
 #>    volume_title   book_title total_verses
@@ -56,6 +56,30 @@ scriptures %>%
 #> # ... with 77 more rows
 ```
 
+And here's how to use `kvj_bible()`:
+
+```r
+bible <- kjv_bible()
+
+bible %>% 
+  group_by(volume_title, book_title) %>%
+  summarize(total_verses = n())
+#> # A tibble: 66 x 3
+#> # Groups:   volume_title [?]
+#>    volume_title  book_title      total_verses
+#>    <chr>         <chr>                  <int>
+#>  1 New Testament 1 Corinthians            437
+#>  2 New Testament 1 John                   105
+#>  3 New Testament 1 Peter                  105
+#>  4 New Testament 1 Thessalonians           89
+#>  5 New Testament 1 Timothy                113
+#>  6 New Testament 2 Corinthians            257
+#>  7 New Testament 2 John                    13
+#>  8 New Testament 2 Peter                   61
+#>  9 New Testament 2 Thessalonians           47
+#> 10 New Testament 2 Timothy                 83
+#> # ... with 56 more rows
+```
 
 ## Code of Conduct
 
