@@ -4,7 +4,6 @@
 \name{scriptuRs}
 \alias{scriptuRs}
 \alias{scriptuRs-package}
-\alias{scriptuRs-package}
 \title{The Standard Works of The Church of Jesus Christ of Latter-day Saints}
 \description{
 This package contains the complete text of the Standard Works of The Church

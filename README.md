@@ -88,4 +88,8 @@ This project is released with a [Contributor Code of Conduct](CONDUCT.md). By pa
 
 ## Credits
 
+The text of the scriptures comes from the Mormon Documentation Project
+(http://scriptures.nephi.org/) and is provided under a public domain license
+with no rights reserved. The license has been converted to MIT here, due to CRAN's policy that the entire package use the same license throughout.
+
 Bible image by [Sander Leefers from the Noun Project](https://thenounproject.com/search/?q=bible&i=10058)
