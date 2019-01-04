@@ -1,5 +1,7 @@
 # scriptuRs <img src="tools/logo.png" align="right"/>
 
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/scriptuRs)](https://cran.r-project.org/package=scriptuRs)
+
 ## An R Package for the Complete LDS Scriptures
 
 This package provides access to the full text of the Standard Works for The Church of Jesus Christ of Latter-day Saints: the Old and New Testaments, the Book of Mormon, the Doctrine and Covenants, and the Pearl of Great Price. The text for each book of scripture was sourced from [the Mormon Documentation Project](http://scriptures.nephi.org/). Each volume is in a data frame with a row for each verse, along with 19 columns of detailed metadata (including verse number, chapter number, book names, unique identifiers, and so on), ready for text analysis. The package contains:
