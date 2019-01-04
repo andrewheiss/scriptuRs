@@ -1,6 +1,7 @@
 # scriptuRs <img src="tools/logo.png" align="right"/>
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/scriptuRs)](https://cran.r-project.org/package=scriptuRs)
+[![DOI](https://zenodo.org/badge/163114579.svg)](https://zenodo.org/badge/latestdoi/163114579)
 
 ## An R Package for the Complete LDS Scriptures
 
