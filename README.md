@@ -21,6 +21,7 @@ There is also a function `lds_scriptures()` that returns a tidy data frame of al
 
 Unlike other packages like [**janeaustenr**](https://github.com/juliasilge/janeaustenr), this package does not provide ordered factors for book or volume names. It is up to the user to put books and/or volumes in the needed order when analyzing or plotting the data.
 
+
 ## Installation
 
 To install the current stable version of the package, type the following:
