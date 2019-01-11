@@ -23,13 +23,21 @@ Unlike other packages like [**janeaustenr**](https://github.com/juliasilge/janea
 
 ## Installation
 
-This package is not released on CRAN yet. You can install the development version from Github:
+To install the current stable version of the package, type the following:
+
+```r
+install.packages("scriptuRs")
+library(scriptuRs)
+```
+
+Alternatively, you can install the development version from Github:
 
 ```r
 library(remotes)
 install_github("andrewheiss/scriptuRs")
 library(scriptuRs)
 ```
+
 
 ## Usage
 
